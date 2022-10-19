@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package conversor;
+package Code;
 
 /*
 Millas a KM
@@ -52,6 +52,30 @@ public class Conversor {
     public static double librasAKg(double libras){
         double resultado;
         resultado=libras*0.453592;
+        return resultado;
+    }
+    
+    public static double eurosADolares(double euros){
+        double resultado;
+        resultado=euros*0.98;
+        return resultado;
+    }
+    
+    public static double dolaresAEuros(double dolares){
+        double resultado;
+        resultado=dolares*1.02;
+        return resultado;
+    }
+    
+    public static double metrosAPies(double metros){
+        double resultado;
+        resultado=metros*3.28084;
+        return resultado;
+    }
+    
+    public static double piesAMetros(double pies){
+        double resultado;
+        resultado=pies*0.3048;
         return resultado;
     }
     
